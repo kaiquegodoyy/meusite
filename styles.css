@@ -116,3 +116,29 @@ header ul li a:hover {
     color: #292b2c;
 }
 
+#imagem {
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+   
+}
+
+@media screen and (min-width: 768px) {
+    
+    #foto {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    header ul li a {
+        flex-direction: row;
+        width: 70%;
+
+    }
+
+    footer {
+        width: 100%;
+    }
+
+}
+
